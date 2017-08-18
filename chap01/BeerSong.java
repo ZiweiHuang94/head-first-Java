@@ -1,8 +1,10 @@
+// This example is not exactly same as the practice on the book.
+// The lyric here follow http://www.99-bottles-of-beer.net/lyrics.html
 package chap01;
 
 public class BeerSong {
     public static  void main(String[] args){
-        int totalBeerNum = 3;
+        int totalBeerNum = 99;//can change it to a small figure like 5, to see whether the final part is correct
         int beerNum = totalBeerNum;
         String word = "bottles";
         while(beerNum >0){
